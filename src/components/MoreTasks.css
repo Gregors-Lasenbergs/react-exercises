@@ -1,0 +1,10 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,36 @@
+.brand-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    a:link{
+        color: #1a1a1a;
+    }
+    a:visited{
+        color: #1a1a1a;
+    }
+    a:hover{
+        color: gray;
+    }
+}
